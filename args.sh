@@ -1,5 +1,5 @@
-username=$1
-country=$2
+username=input=$1
+country=input=$2
 echo "Hello $username from $country!"
 echo "number of arguments passed: $#"
 echo "All arguments: $@"
