@@ -20,9 +20,7 @@ else
     echo "You live in a different city."
 fi
 
-for i in {1..5}; do
+nmu=5
+for i in $(seq 1 $nmu); do
     echo "*" 
-    if [ $i -eq 3 ]; then
-        echo "This is the middle of the loop."
-    fi       
 done
