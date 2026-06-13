@@ -22,5 +22,6 @@ fi
 
 nmu=5
 for i in $(seq 1 $nmu); do
-    echo "$i*" 
+    echo "$i * *" 
 done
+
