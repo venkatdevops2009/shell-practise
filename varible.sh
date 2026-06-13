@@ -21,5 +21,8 @@ else
 fi
 
 for i in {1..5}; do
-    echo "This is iteration $i."
+    echo "*" 
+    if [ $i -eq 3 ]; then
+        echo "This is the middle of the loop."
+    fi       
 done
