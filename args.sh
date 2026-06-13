@@ -1,4 +1,6 @@
+echo "Please enter your username::"
 read username
+echo "Please enter your country::"
 read country
 echo "Hello $username from $country!"
 echo "number of arguments passed: $#"
